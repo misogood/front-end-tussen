@@ -30,6 +30,10 @@ nav {
   margin-right: 20px;
 }
 
+.nav-links li a {
+  color: black;
+  text-decoration: none; 
+
 .title-section {
   padding-bottom: 20px;
   padding-left: 60px;

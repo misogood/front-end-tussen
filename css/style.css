@@ -14,6 +14,10 @@ nav {
 .logo {
   margin-right: 20px;
 }
+.logo img {
+  width: 30px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
 
 .nav-links {
   list-style: none;
@@ -28,7 +32,7 @@ nav {
 
 .title-section {
   padding-bottom: 20px;
-  border-bottom: 1px solid #ccc;
+  padding-left: 60px;
 }
 
 .product {
@@ -37,30 +41,32 @@ nav {
 
 .product .image {
   flex: 1;
-  padding: 20px;
+  padding: 50px;
+  margin-left: 60px;
   background-color: #f9f9f9;
   border: 1px solid black;
 }
 
 .product .image img {
   width: 100%;
-  height: auto;
+  height: 0;
+  padding-top: 60%; /* Adjust the padding to control the size */
 }
 
 .product .details {
   flex: 1;
   padding: 20px;
-  padding-left: 40px; 
+  padding-left: 40px; /* Adjusted padding between image and text */
 }
 
 .product .details .price {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .product .details p {
   font-size: 14px;
-  margin-bottom: 10px; 
+  margin-bottom: 40px;
 }
 
 .product .details button {
@@ -68,3 +74,101 @@ nav {
   font-size: 16px;
 }
 
+.page-separator {
+  margin: 90px 0; 
+}
+
+.additional-info {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 60px;
+  margin-bottom: 40px;
+}
+
+.pros-cons {
+  flex: 1;
+  background-color: #ffffcc;
+  padding: 20px;
+  border: none; 
+  max-width: 200px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.pros-cons-box {
+  padding-bottom: 10px;
+ 
+}
+
+.pros-cons h2 {
+  margin-bottom: 10px;
+}
+
+.description {
+  flex: 1;
+  padding: 20px;
+}
+
+.description h2 {
+  margin-bottom: 20px;
+}
+
+.related-products {
+  background-color: #ffffcc;
+  padding: 40px;
+  text-align: center;
+}
+
+.related-products h2 {
+  margin-bottom: 20px;
+}
+
+.product-item {
+  display: inline-block;
+  width: 200px;
+  margin: 0 20px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  margin: 10px 0;
+}
+
+.product-item p {
+  font-size: 14px;
+}
+
+footer {
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.footer-content li:last-child {
+  margin-right: 0;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: white;
